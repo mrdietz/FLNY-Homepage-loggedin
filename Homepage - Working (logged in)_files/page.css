@@ -1,0 +1,121 @@
+.featuredProductsWidget--180 {
+    background-color: #ffffff;
+    color: var(--text_color); 
+    padding-top: 68px;
+	padding-bottom: 44px;
+}
+
+.featuredProductsWidget--180 a {
+    color: var(--link_color);
+}.photoGridWidget--162 {
+    padding-top:25px; 
+    padding-bottom: 64px;
+    background-color: #ffffff;
+    color: var(--text_color); 
+}
+
+.photoGridWidget--162 a {
+    color: var(--link_color);
+}.howItWorksWidget--166 {
+    background-color: #ebebeb; 
+    color: var(--text_color); 
+    text-align: left; 
+    padding-top: 32px; 
+    padding-bottom: 15px;
+}
+
+.howItWorksWidget--166 a {
+    color: var(--link_color);
+}
+
+.howItWorksWidget--166 .bullet {
+    background-color: var(--brand_color); 
+    color: var(--brand_color_inverted);
+}.textWidget--192 {
+    max-width: 1600px; 
+    padding-top: 0px; 
+    padding-bottom: 11px; 
+    line-height: 1.75; 
+    background-color: #ebebeb;
+    color: var(--text_color);
+}
+
+.textWidget--192 a {
+    color: #a59494;
+}.ctaButtonWidget--193 {
+    background-color: #ebebeb; 
+    padding-top:5px; 
+    padding-bottom: 45px;
+    
+}.bannerWidget--172 {
+    background-image: url(https://s3.amazonaws.com/grazecart/doubleoakfoodcoop/images/1651976711_62772a07c573e.jpg); 
+	background-attachment: scroll; 
+	background-position: 50% 52%; 
+	background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+@media (max-width : 480px) {
+    /* safari mobile does not support fixed */
+    .bannerWidget--172 {
+        background-attachment: initial;
+    }
+}
+
+.bannerWidget--172::after {
+    background-color: hsla(0, 0%, 0%, 0.12);
+    z-index: 1;
+}
+
+.bannerWidget--172 .bannerWidget__innerContainer {
+    z-index: 100;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    height: auto;
+        max-width: 1600px;
+    
+    }
+
+.bannerWidget--172 .bannerWidget__heading {
+    letter-spacing: normal; 
+    color: #ffffff; 
+    max-width: 736px; 
+    line-height: 1; 
+    font-size: 48px;
+    text-transform: none;
+}
+
+.bannerWidget--172 .bannerWidget__subheading {
+    letter-spacing: normal; 
+    color: #FFF; 
+    max-width: 960px; 
+    line-height: 2; 
+    font-size: 31px;
+    text-transform: none;
+}.testimonialsWidget--194 {
+    padding-top: 63px; 
+    padding-bottom: 64px;
+    background-color: #ffffff;
+    color: #3f3f3f; 
+}
+
+.testimonialsWidget--194 a {
+    color: var(--link_color);
+}
+
+.testimonialsWidget--194 .testimonialsWidgetDots li button:before {
+    color: #3f3f3f; 
+}
+
+.testimonialsWidget--194 .testimonial__bodyContainer {
+    background-color: #010101;
+    color: #d7d4d4;
+}
+
+.testimonialsWidget--194 .testimonial__bodyContainer::after {
+    background-color: #010101;
+}
